@@ -82,6 +82,9 @@ $points_fidelite = $utilisateur ? (int)$utilisateur["points_fidelite"] : 0;
             <!--<button class="button-9 button-danger" onclick="window.location.href='admin/reset_password.php'" role="button">
                 Réinitialiser mot de passe
             </button>-->
+            <button class="button-9" onclick="window.location.href='test_mail.php'" role="button">
+                Test Mail SMTP
+            </button>
         <?php endif; ?>
     </div>
 
